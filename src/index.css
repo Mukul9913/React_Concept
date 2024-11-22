@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.white-header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F17228;
+}
+
+.actions input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #F17228;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1600x900?text=Food+Background');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 50px;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.tabs button {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.tabs button.active {
+    font-weight: bold;
+    color: #F17228;
+}
+
+.search-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-input button {
+    padding: 10px 20px;
+    background-color: #F17228;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.food-deals {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.deal-card {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.deal-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.discount {
+    background-color: #F17228;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.deal-card h3 {
+    margin: 10px 0 5px;
+}
+
+.deal-card p {
+    color: #F17228;
+    margin: 0;
+}
